@@ -129,3 +129,29 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 5px;
 }
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
