@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #153857;
+
+}
+a:hover {
+    text-decoration: none;
+    color: #23527c;
+    transition-duration: 100ms;
+}
+.nav{
+    height: fit-content;
+    background-color: #8cc1fa;
+}
+.nav ul{
+    background-color: rgb(112, 156, 221);
+    margin: 0px;
+    padding: 10px;
+}
+.nav li{
+    background-color: wheat;
+    list-style: none;
+    border:2px solid #98a2ac;
+    margin: 0px;
+    padding: 10px;
+    color:#333
+}
+
+.nav li:hover{
+    background-color: rgb(92, 62, 62);
+    transition-duration: 300ms;
+    cursor: pointer;
+    a {
+        color: whitesmoke;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin-left: 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+h1 {
+    padding-bottom: 10px;
+}
+.big-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width:150px;
+    height: 150px;
+    background-color: rgb(241, 137, 180);
+    border-radius: 50%;
+    border: 2px solid #3488e9;
+}
+.line{
+    height: 75px;
+    width: 4px;
+    background: #434352;
+}
+.contact-info{
+    margin-bottom: 20px;
+}
+
+.section {
+    background-color: #fcfcfc;
+    border: 1px solid #b3cbe4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #98a2ac;
+}
+.section h2 {
+    margin-top: 0;
+}
+.job-title {
+    font-weight: bold;
+}
+.date {
+    float: right;
+    font-style: italic;
+}
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background: #004fa3;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.References {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #d1e7ff;
+    border: 1px solid #8cc1fa;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
